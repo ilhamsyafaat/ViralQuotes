@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+#section-1 {
+    background-image: url(../image/liquid-cheese-1.png);
+    background-size: cover;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.card-custom-section1 {
+    max-width: 600px;
+    padding: 40px;
+    border-width: 0;
+    border-radius: 40px;
+}
+
+#section-2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-custom-section2 {
+    background-image: url(../image/liquid-cheese.png);
+    background-size: cover;
+    border-width: 0;
+    border-radius: 30px;
+    height: 250px;
+}
+
+.card-custom-section3 {
+    border-width: 0;
+    border-radius: 30px;
+}
+
+.title-column-1 {
+    background-color: #2B53C2;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.title-column-2 {
+    background-color: #E62A2A;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#section-3 {
+    background-image: url(../image/bullseye-gradient.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#section-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-custom-section4 {
+    border-width: 0;
+    border-radius: 30px;
+}
+
+.text-1 {
+    background-image: url(../image/liquid-cheese.png);
+    background-size: cover;
+    background-position: center;
+    border-width: 0;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-5 {
+    background-image: url(../image/liquid-cheese-1.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-custom-section5 {
+    border-width: 0;
+    width: 900px;
+    border-radius: 30px;
+}
+
+#section-6 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.custom-text-section6 {
+    font-size: 25px;
+    background-color: #E62A2A;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 40px;
+}
+
+.card-custom-section6 {
+    background-image: url(../image/liquid-cheese.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    border-width: 0;
+    padding: 2px 3px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.subcard-custom-section6 {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 35px;
+    padding: 20px;
+    margin-right: 12px;
+}
+
+.card-col {
+    border-width: 0;
+    border-radius: 20px;
+    padding: 15px;
+    border-color: #171E31;
+    border-width: 5px;
+}
+
+.custom-col{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.text-preview {
+    background-color: #FDAB0D;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 35px;
+    font-size: 20px;
+}
+
+.text-size {
+    background-color: #E62A2A;
+    padding: 12px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35px;
+}
+
+.youtube-url {
+    border-radius: 20px;
+    border-width: 0;
+    height: 400px;
+}
+
+#section-7 {
+    background-image: url(../image/liquid-cheese-1.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card-custom-section7 {
+    width: 700px;
+    padding: 25px;
+    border-radius: 25px;
+    border-width: 0;
+}
+
+.custom-href {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.text-rejection {
+    background-color: #E62A2A;
+    padding: 10px;
+    max-width: 550px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-rejection:hover {
+    background-color: #EE7171;
+}
+
+#section-8 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.custom-footer-link {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+#section-8 li {
+    padding: 0 2px;
+}
+
+.custom-href-footer {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    
+    .text-section1 {
+        font-size: 18px !important;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .text-section2 {
+        font-size: 25px !important;
+    }
+
+    .text-section2-1 {
+        font-size: 20px !important;
+    }
+
+    .text-section2-2 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .title-column-1 {
+        font-size: 20px;
+        padding: 15px 30px !important;
+    }
+
+    .title-column-2 {
+        font-size: 18px;
+        padding: 15px 35px !important;
+    }
+
+    .desc {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .desc-text {
+        font-size: 16px !important;
+        padding-right: 20px !important;
+        padding-left: 20px;
+    }
+
+    .custom-text-section6 {
+        font-size: 16px !important;
+        padding: 15px !important;
+    }
+
+    .youtube-url {
+        height: 200px !important;
+    }
+
+    .subcard-custom-section6 {
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .custom-col {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .text-section7 {
+        font-size: 20px !important;
+    }
+
+    .text-section7-1 {
+        font-size: 15px !important;
+    }
+
+    .text-section7-2 {
+        font-size: 18px !important;
+    }
+
+    .text-section7-3 {
+        font-size: 15px !important;
+    }
+
+    .text-section8-1 {
+        font-size: 12px !important;
+    }
+
+    .text-section8-2 {
+        font-size: 12px !important;
+    }
+
+    .text-section8-1 {
+        font-size: 12px !important;
+    }
+
+    .text-section8-2 {
+        font-size: 12px !important;
+    }
+}
